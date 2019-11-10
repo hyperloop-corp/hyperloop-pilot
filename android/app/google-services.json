@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "240031285126",
+    "firebase_url": "https://hyperloop-26544.firebaseio.com",
+    "project_id": "hyperloop-26544",
+    "storage_bucket": "hyperloop-26544.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240031285126:android:3e578e405455a0e9adf607",
+        "android_client_info": {
+          "package_name": "com.hyperloop.hyperloop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240031285126-ln8lbggaietrc7ae9prhfvem5fomoa7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhooBhOewj3hD9BWN-8ItgXPvf-QxCyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240031285126-ln8lbggaietrc7ae9prhfvem5fomoa7a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "240031285126-uk41c5kgrbive13b9p8eg20oq389ak34.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hyperloop.hyperloop"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240031285126:android:7f9ab1dbc4938119adf607",
+        "android_client_info": {
+          "package_name": "hyperloop.com.hyperloop_pilot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240031285126-ln8lbggaietrc7ae9prhfvem5fomoa7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXhooBhOewj3hD9BWN-8ItgXPvf-QxCyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240031285126-ln8lbggaietrc7ae9prhfvem5fomoa7a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "240031285126-uk41c5kgrbive13b9p8eg20oq389ak34.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hyperloop.hyperloop"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
