@@ -1,38 +1,78 @@
 {
   "project_info": {
-    "project_number": "240031285126",
-    "firebase_url": "https://hyperloop-26544.firebaseio.com",
-    "project_id": "hyperloop-26544",
-    "storage_bucket": "hyperloop-26544.appspot.com"
+    "project_number": "517276981085",
+    "firebase_url": "https://hyperloop-261018.firebaseio.com",
+    "project_id": "hyperloop-261018",
+    "storage_bucket": "hyperloop-261018.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:240031285126:android:3e578e405455a0e9adf607",
+        "mobilesdk_app_id": "1:517276981085:android:33a5f8b3712329510a3ab4",
         "android_client_info": {
           "package_name": "com.hyperloop.hyperloop"
         }
       },
       "oauth_client": [
         {
-          "client_id": "240031285126-ln8lbggaietrc7ae9prhfvem5fomoa7a.apps.googleusercontent.com",
+          "client_id": "517276981085-7489ricjlebmcpsotc1etrj385vdcesh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hyperloop.hyperloop",
+            "certificate_hash": "91cc6c9df206738543848a215ba977bdffeb5fb8"
+          }
+        },
+        {
+          "client_id": "517276981085-lpljobi9c8o87s0kd1mkp4km7gnsfjfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hyperloop.hyperloop",
+            "certificate_hash": "568dc870020a5dcd7ce29ed7d5e9fbc5c6865fea"
+          }
+        },
+        {
+          "client_id": "517276981085-e7uo8n5jmpsvgelu58dkqsqf364cg2dk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hyperloop.hyperloop",
+            "certificate_hash": "d1b1d388557dc7f12e6e5336e2afabf343cf9113"
+          }
+        },
+        {
+          "client_id": "517276981085-m27uhk54ofksgsqbi4e0amavlouon2p1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hyperloop.hyperloop",
+            "certificate_hash": "63f157e9fda6c5433d4d47ae3b3057d8f3e97ab7"
+          }
+        },
+        {
+          "client_id": "517276981085-ngtr6ptotnl2r0cluufsea5qkks4hkju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hyperloop.hyperloop",
+            "certificate_hash": "768ea0a6e7c750dfb000d931863764f9f321f493"
+          }
+        },
+        {
+          "client_id": "517276981085-nno2gj8mf07dn0u29j5agej32ef0qvat.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBXhooBhOewj3hD9BWN-8ItgXPvf-QxCyQ"
+          "current_key": "AIzaSyCKwRGeUSypYYEJ3CcuW-4HWxwQp1xNXPo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "240031285126-ln8lbggaietrc7ae9prhfvem5fomoa7a.apps.googleusercontent.com",
+              "client_id": "517276981085-nno2gj8mf07dn0u29j5agej32ef0qvat.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "240031285126-uk41c5kgrbive13b9p8eg20oq389ak34.apps.googleusercontent.com",
+              "client_id": "517276981085-nmlaaqeujkht0k3483i5ol5n36i1r9qt.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.hyperloop.hyperloop"
@@ -44,31 +84,39 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:240031285126:android:7f9ab1dbc4938119adf607",
+        "mobilesdk_app_id": "1:517276981085:android:884fe652b0fde72c0a3ab4",
         "android_client_info": {
           "package_name": "hyperloop.com.hyperloop_pilot"
         }
       },
       "oauth_client": [
         {
-          "client_id": "240031285126-ln8lbggaietrc7ae9prhfvem5fomoa7a.apps.googleusercontent.com",
+          "client_id": "517276981085-2hhnlm9loch45tm43qvg23pamanq0h3p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hyperloop.com.hyperloop_pilot",
+            "certificate_hash": "568dc870020a5dcd7ce29ed7d5e9fbc5c6865fea"
+          }
+        },
+        {
+          "client_id": "517276981085-nno2gj8mf07dn0u29j5agej32ef0qvat.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBXhooBhOewj3hD9BWN-8ItgXPvf-QxCyQ"
+          "current_key": "AIzaSyCKwRGeUSypYYEJ3CcuW-4HWxwQp1xNXPo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "240031285126-ln8lbggaietrc7ae9prhfvem5fomoa7a.apps.googleusercontent.com",
+              "client_id": "517276981085-nno2gj8mf07dn0u29j5agej32ef0qvat.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "240031285126-uk41c5kgrbive13b9p8eg20oq389ak34.apps.googleusercontent.com",
+              "client_id": "517276981085-nmlaaqeujkht0k3483i5ol5n36i1r9qt.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.hyperloop.hyperloop"

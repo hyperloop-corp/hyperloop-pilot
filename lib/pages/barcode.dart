@@ -14,14 +14,14 @@ class BarCode extends StatefulWidget {
 }
 
 class _BarCodeState extends State<BarCode> {
-  String result = "Scan QR to get user details";
+  String result = "Scan Ticket QR to record user payment.";
   String sourceLat, sourceLong, destinationLat, destinationLong, price, user_id;
   FirebaseDatabase db = FirebaseDatabase();
   DatabaseReference _userRef;
 
-  void moneyDeduct(int money, String id){
+  void moneyDeduct(int money){
 
-    _userRef.child(id).child('money').once().then((DataSnapshot snapshot){
+   /* _userRef.child(id).child('money').once().then((DataSnapshot snapshot){
 
       if(snapshot.value < money) {
         setState(() {
@@ -33,56 +33,40 @@ class _BarCodeState extends State<BarCode> {
 
       int newValue = snapshot.value - money;
 
-      _userRef.child(id).child('money').set(newValue);
+      _userRef.child(id).child('money').set(newValue);*/
 
-    });
-
+      showDialog(context: context,
+      builder: (BuildContext context){
+        return AlertDialog(
+          title: Text("Payment Successful"),
+          content: Text("$money rupees deducted from the user account"),
+        );
+      });
   }
 
   initState(){
     _userRef = db.reference().child('users');
+    super.initState();
   }
 
   Future _scanQR() async {
     //try {
       String qrResult = await BarcodeScanner.scan();
       setState(() {
-        result = qrResult;
-        print((result));
+        /*result = qrResult;*/
+        print((qrResult));
         
-        List args = result.split(",");
-        
-        String uid = args[5].split(":")[1];
-        uid = uid.substring(0, uid.length - 1);
-        uid = uid.trim();
-
+        List args = qrResult.split(",");
+      
         String price = args[4].split(":")[1];
         price = price.trim();
 
-        print(uid + " " + price);
+        print(price);
 
         int money = int.parse(price);
-        moneyDeduct(money, uid);
+        moneyDeduct(money);
       });
-    /*} on PlatformException catch (ex) {
-      if (ex.code == BarcodeScanner.CameraAccessDenied) {
-        setState(() {
-          result = "Camera permission was denied";
-        });
-      } else {
-        setState(() {
-          result = "Unknown Error $ex";
-        });
-      }
-    } on FormatException {
-      setState(() {
-        result = "You pressed the back button before scanning anything";
-      });
-    } catch (ex) {
-      setState(() {
-        result = "Unknown Error $ex";
-      });
-    }*/
+    
   }
 
   @override
@@ -94,7 +78,7 @@ class _BarCodeState extends State<BarCode> {
       body: Center(
         child: Text(
           result,
-          style: new TextStyle(fontSize: 15.0),
+          style: new TextStyle(fontSize: 20.0),
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(
